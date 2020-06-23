@@ -22,6 +22,7 @@ This module is for deploying `resource group` resource in Azure using Terraform
 ```
 module "my_resource_group" {
     source = "intelligentmachines/resource-group/azure"
+    version = "0.0.1"
     group_name = var.group_name
     location = var.location
 }
