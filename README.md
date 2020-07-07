@@ -26,5 +26,6 @@ module "my_resource_group" {
     version = "0.0.1"
     group_name = var.group_name
     location = var.location
+    tags = var.tags
 }
 ```
