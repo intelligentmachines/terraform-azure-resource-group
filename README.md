@@ -8,6 +8,7 @@ This module is for deploying `resource group` resource in Azure using Terraform
 |:------|:------|:-----|:-----|:-----|
 | group_name| `string` | `true` | | Resource Group Name
 | location | `string` | `true` | | Resource Group Location
+| tags | `map(any)` | `false` | {} | Resource Group Tags
 
 
 ### Outputs
